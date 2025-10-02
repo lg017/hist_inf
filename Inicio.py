@@ -139,7 +139,7 @@ if canvas_result.image_data is not None and api_key and analyze_button:
                     story_prompt = f"Basándote en esta descripción: '{full_response}', crea una historia infantil breve y entretenida. La historia debe ser creativa y apropiada para niños."
                     
                     story_response = openai.chat.completions.create(
-                        model="gpt-4o",
+                        model="gpt-4o-mini",
                         messages=[{"role": "user", "content": story_prompt}],
                         max_tokens=500,
                     )
