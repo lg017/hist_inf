@@ -6,7 +6,7 @@ import openai
 #from PIL import Image
 #import tensorflow as tf
 from PIL import Image, ImageOps
-#import numpy as np
+import numpy as np
 import pandas as pd
 #import matplotlib.pyplot as plt
 import streamlit as st
